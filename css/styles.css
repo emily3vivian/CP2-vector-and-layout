@@ -33,3 +33,43 @@ section{
 		margin-top: 10px;
 	float: left;
 }
+
+
+/*media queries*/
+@media (max-width: 1024px){
+  /*nested rules for this size*/
+
+  /*
+  body{
+    background: red;
+  }
+  */
+} 
+
+/*tablet*/
+@media (max-width: 768px){
+  /*nested rules for this size*/
+
+  /*
+  body{
+    background: blue;
+  }
+  */
+
+  article section {
+		float: none;
+		width: 100%;
+		width: 100%;
+	}
+} 
+
+/*mobile*/
+@media (max-width: 480px){
+  /*nested rules for this size*/
+
+  /*
+  body{
+    background: green;
+  }
+  */
+} 
